@@ -21,6 +21,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Site Directory
+_site
 
 ### Sass ###
 .sass-cache
