@@ -1,0 +1,15 @@
+# Site settings
+title: Artists Theme
+description: "Thinker // Desginer // YouTuber"
+email: colinrubbert@gmail.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+host: 0.0.0.0
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
