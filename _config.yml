@@ -3,6 +3,13 @@ title: Artists Theme
 description: "Thinker // Desginer // YouTuber"
 email: colinrubbert@gmail.com
 
+# Site default images and content
+logo: logo.svg
+bg-img: hero-bg.jpg
+avatar: face.jpg
+
+blurb: <p><strong>Colin specializes in making things</strong> for human people. Most of the things he makes are <a href="http://colinrubbert.com" target="_blank">digital interfaces</a> and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds <a href="http://community.thefirehoseproject.com" target="_blank">communities</a> for new designers and developers.</p>
+
 # Build settings
 markdown: kramdown
 permalink: pretty
