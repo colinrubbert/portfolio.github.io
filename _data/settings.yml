@@ -3,6 +3,14 @@ title: "Artists Theme"
 description: "Thinker // Designer // Photographer"
 email: colinrubbert@gmail.com
 
+#---- SEO Section ----#
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
 #---- About Section ----#
 #Menu Item List
 menu:
@@ -45,9 +53,5 @@ clients:
 - {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>', logo: 'logo4.png'}
 
 # Change The Site Default Images And Content Here
-logo: logo.svg
-bg-img: hero-bg.jpg
-avatar: face.jpg
-
 blurb: >
   **Colin specializes in making things** for human people. Most of the things he makes are [digital interfaces](http://colinrubbert.com){:target="_blank"} and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds [communities](http://community.thefirehoseproject.com){:target="_blank"} for new designers and developers.

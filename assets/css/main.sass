@@ -3,10 +3,10 @@
 
 /* Transition, URL, and image paths from settings file to usable SASS variables
 $baseurl-path: '{{ site.baseurl }}'
-$animation: "bounceOut"
-$logo-path: '{{ site.data.settings.logo }}'
-$hero-path: '{{ site.data.settings.bg-img }}'
-$avatar-path: '{{ site.data.settings.avatar }}'
+$animation: '{{ site.data.layout.animation }}'
+$logo-path: '{{ site.data.layout.logo }}'
+$hero-path: '{{ site.data.layout.hero }}'
+$avatar-path: '{{ site.data.layout.avatar }}'
 $projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
 
 /* IMPORTS */
