@@ -7,6 +7,12 @@
     <div class="client-control-prev">{% include icons/icon-prev.html %}</div>
   </div>
 
+  <div class="clients-mobile-nav">
+    {% for client in site.data.settings.clients %}
+      <span></span>
+    {% endfor %}
+  </div>
+
   <div class="clients-belt">
 
     {% for client in site.data.settings.clients %}
@@ -29,7 +35,7 @@
 
   <div class="clients-logos">
     {% for client in site.data.settings.clients %}
-      <div class="client-logo" style="background-image: url({{ site.baseurl }}/assets/img/clients/{{ client.logo }})"></div>
+      <img class="client-logo" src="{{ site.baseurl }}/assets/img/clients/{{ client.logo }}" alt="{{ client.logo }}" />
     {% endfor %}
 
   </div>
