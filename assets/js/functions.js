@@ -22,6 +22,10 @@ function smoothScroll (duration) {
 
 // workBelt function moves between the thumbnails and the works entity
 function workBelt() {
+
+  $('.trigger').remove();
+  $('.return').remove();
+
   $('.thumb-unit').click(function() {
     $('.work-belt').css('left','-100%');
     $('.work-container').show();

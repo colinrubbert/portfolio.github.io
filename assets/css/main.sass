@@ -1,19 +1,13 @@
 ---
 ---
-/* BASE URL PATH CONFIGURATIONS */
+
+/* Transition, URL, and image paths from settings file to usable SASS variables
 $baseurl-path: '{{ site.baseurl }}'
-
-/* HEADER PATH CONFIGURATIONS */
-
+$animation: "bounceOut"
 $logo-path: '{{ site.data.settings.logo }}'
 $hero-path: '{{ site.data.settings.bg-img }}'
-
-/* ABOUT PATH CONFIGURATIONS */
-
 $avatar-path: '{{ site.data.settings.avatar }}'
-
-/* FOOTER PATH CONFIGURATIONS */
-
+$projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
 
 /* IMPORTS */
 

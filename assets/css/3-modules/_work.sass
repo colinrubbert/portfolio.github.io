@@ -4,6 +4,27 @@
 .section-work
   overflow-x: hidden
 
+/* CSS to handle edge case of JS not enabled */
+.noscript
+  display: none
+
+@each $proj in $projects
+  ##{$proj}:checked ~ .work-belt .work-wrap .work-container noscript #content-#{$proj}
+    display: block
+
+.return
+  display: none
+
+.trigger
+  display: none
+
+  &:checked ~ .work-belt
+    left: -100%
+
+    .work-wrap .work-container
+      display: block
+/* End of noscript edge case */
+
 .work-belt
   width: 200%
   position: relative
@@ -26,29 +47,28 @@
     float: left
     position: relative
     padding-top: 16%
+    cursor: pointer
     // overflow: hidden
-
-    @media screen and (max-width: 760px)
-      width: 50%
-      padding-top: 26%
-
     background:
       position: center center
       repeat: no-repeat
       size: cover
     +perspective(300)
 
+    @media screen and (max-width: 760px)
+      width: 50%
+      padding-top: 26%
+
+
     .thumb-overlay
-      +position(absolute, 0% 0px null 0px)
-      height: 100%
-      background: fade-out($accent-color, 0.1)
-      text-align: center
+      +position(absolute)
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
-      +transform(matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1))
-      opacity: 1
-      +transition(opacity, 300ms, ease-in, 300ms)
+      height: 100%
+      background: fade-out($accent-color, 0.1)
+      text-align: center
+      @extend %animationstart_#{$animation}
 
       strong
         display: block
@@ -63,16 +83,18 @@
       z-index: 2
 
       .thumb-overlay
-        @extend %animation
-        opacity: 1
+        @extend %#{$animation}
+
 
 .work-container
   max-width: 600px
   margin: 0 auto
+  padding: 0 15px
   display: none
   position: relative
+  +box-sizing(border-box)
 
-  h4
+  h4, noscript h4
     color: $accent-color
     font-weight: 300
     text-transform: uppercase
@@ -95,6 +117,7 @@
 
     &:hover
       opacity: 1
+
 @media (max-width: 740px)
   .work-container
 
