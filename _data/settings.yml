@@ -41,4 +41,5 @@ logo: logo.svg
 bg-img: hero-bg.jpg
 avatar: face.jpg
 
-blurb: <p><strong>Colin specializes in making things</strong> for human people. Most of the things he makes are <a href="http://colinrubbert.com" target="_blank">digital interfaces</a> and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds <a href="http://community.thefirehoseproject.com" target="_blank">communities</a> for new designers and developers.</p>
+blurb: >
+  **Colin specializes in making things** for human people. Most of the things he makes are [digital interfaces](http://colinrubbert.com){:target="_blank"} and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds [communities](http://community.thefirehoseproject.com){:target="_blank"} for new designers and developers.
