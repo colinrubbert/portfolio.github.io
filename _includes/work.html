@@ -6,7 +6,7 @@
     <div class="thumb-wrap">
       <div class="thumb-container">
         {% for project in site.data.settings.projects %}
-        <div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{ project.folder }}/thumb.jpg);">
+        <div class="thumb-unit" data-folder="{{ project.folder }}" style="background-image: url({{site.baseurl}}/assets/img/work/{{ project.folder }}/thumb.jpg);">
           <div class="thumb-overlay">
             <strong>{{ project.name }}</strong>
             <div class="zoom-icon"></div>
@@ -19,13 +19,8 @@
     <div class="work-wrap">
       <div class="work-container">
         <div class="work-return">{% include icons/icon-back.html %}</div>
-        <h4>Do Work</h4>
-        <div style="width: 600px; height: 500px; background: #ccc;"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.</p>
-        <div style="width: 600px; height: 500px; background: #ccc;"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.</p>
-        <div style="width: 600px; height: 500px; background: #ccc;"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.</p>
+        <h4 class="project-title"></h4>
+        <div class="project-load"></div>
       </div>
     </div> <!-- End of Work-Wrap -->
   </div> <!-- End of Work-Belt -->
