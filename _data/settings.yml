@@ -36,6 +36,14 @@ projects:
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
+#---- Clients Section ----#
+
+clients:
+- {avatar: 'face-aaroni.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>', logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>', logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>', logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>', logo: 'logo4.png'}
+
 # Change The Site Default Images And Content Here
 logo: logo.svg
 bg-img: hero-bg.jpg
