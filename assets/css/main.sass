@@ -1,6 +1,8 @@
 ---
 ---
 
+@import '1-tools/-tools-index'
+
 /* Transition, URL, and image paths from settings file to usable SASS variables
 $baseurl-path: '{{ site.baseurl }}'
 $animation: '{{ site.data.layout.animation }}'
@@ -11,7 +13,6 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 
 /* IMPORTS */
 
-@import '1-tools/-tools-index'
 @import '2-base/-base-index'
 @import '3-modules/-modules-index'
 @import '4-pages/-pages-index'
