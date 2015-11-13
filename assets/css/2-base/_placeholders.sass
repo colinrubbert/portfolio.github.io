@@ -10,3 +10,23 @@
     size: 50px 50px, cover
     position: 30px 45px, 50% 50%
     blend-mode: overlay, normal
+
+// Animations
+
+// Top Down Animation
+%animationstart_topDown
+  +size(100%)
+  +position(absolute, -100% 0px null 0px)
+  +transition
+
+%topDown
+  top: 0%
+
+// Fade In Animation
+%animationstart_fadeIn
+  +position(0,0)
+  +transition(800ms)
+  opacity: 0
+
+%fadeIn
+  opacity: 1
