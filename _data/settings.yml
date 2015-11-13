@@ -1,7 +1,11 @@
-# Portfolio Settings
+# Change The Site Default Images And Content Here
 title: "Artists Theme"
 description: "Thinker // Designer // Photographer"
 email: colinrubbert@gmail.com
+
+blurb: >
+  **Colin specializes in making things** for human people. Most of the things he makes are [digital interfaces](http://colinrubbert.com){:target="_blank"} and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds [communities](http://community.thefirehoseproject.com){:target="_blank"} for new designers and developers.
+
 
 #---- SEO Section ----#
 # NOTE: Providing SEO information will make this website more searchable on the internet.
@@ -52,6 +56,11 @@ clients:
 - {avatar: 'face-jackiesaik.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Nulla quis sem at nibh elementum imperdiet. Nulla quis sem at nibh elementum imperdiet.</p>', logo: 'logo3.png'}
 - {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Nulla quis sem at nibh elementum imperdiet.</p>', logo: 'logo4.png'}
 
-# Change The Site Default Images And Content Here
-blurb: >
-  **Colin specializes in making things** for human people. Most of the things he makes are [digital interfaces](http://colinrubbert.com){:target="_blank"} and applications, but he also puts effort into crafting beautiful photography, stepping out of his comfort zone to learn new things, and builds [communities](http://community.thefirehoseproject.com){:target="_blank"} for new designers and developers.
+#---- Contact Section ----#
+social:
+- {icon: 'twitter', link: 'http://twitter.com/colinrubbert'}
+- {icon: 'github', link: 'https://github.com/colinrubbert'}
+- {icon: 'instagram', link: 'https://www.instagram.com/colinrubbert'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/colinrubbert/'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
